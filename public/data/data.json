@@ -1,0 +1,83 @@
+{
+	"categories": [
+		{
+			"id": 1,
+			"name": "Casa"
+		},
+
+		{
+			"id": 2,
+			"name": "Eletrônicos"
+		},
+
+		{
+			"id": 3,
+			"name": "Livros"
+		}
+	],
+
+	"products": [
+		{
+			"id": 1,
+			"name": "Dolce Gusto",
+			"category": 1,
+			"image": "dolcegusto.jpg",
+			"description": "Excelente máquina de café de capsulas",
+			"price": 150
+		},
+
+		{
+			"id": 2,
+			"name": "iBoo",
+			"category": 2,
+			"image": "iboo.gif",
+			"description": "Caixa de som com entrada para iPhone/iPod. Inclui adaptador para iPhone 5/5S",
+			"price": 120
+		},
+
+		{
+			"id": 3,
+			"name": "Cubieboard 3",
+			"category": 2,
+			"image": "cubieboard.jpg",
+			"description": "Melhor que Raspberry Pi, é um mini computador com processador 1GHz, 2GB RAM, 8GB de armazenamento interno. Inclui case que possui espaço para um HD de notebook. Detalhes no meu blog",
+			"price": 350
+		},
+
+		{
+			"id": 4,
+			"name": "Delonghi EC 220",
+			"category": 1,
+			"image": "delonghi.jpg",
+			"description": "Máquina de expresso manual",
+			"price": 200
+		},
+
+		{
+			"id": 5,
+			"name": "Steve Jobs - Biografia",
+			"category": 3,
+			"image": "stevejobs-bio.jpg",
+			"description": "Biografia de Steve Jobs escrito por Walter Isaacson",
+			"price": 25
+		},
+
+		{
+			"id": 6,
+			"name": "Mentes Inquietas",
+			"category": 3,
+			"image": "mentes.jpg",
+			"description": "Mentes Inquietas: Entendendo Melhor o Mundo das Pessoas Distraídas, Impulsivas e Hiperativas, Livro de Ana Beatriz Silva",
+			"price": 15
+		},
+
+		{
+			"id": 7,
+			"name": "Case HD Sata 3,5\"",
+			"category": 2,
+			"image": "case.jpg",
+			"description": "Case para HD SATA 3,5\" (HD de Desktop)",
+			"price": 55
+		}
+	]
+}

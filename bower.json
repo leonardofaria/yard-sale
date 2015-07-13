@@ -1,0 +1,19 @@
+{
+  "name": "yard-sale",
+  "version": "0.0.0",
+  "authors": [
+    "Leonardo Faria <leonardofaria@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pure": "~0.6.0",
+    "pure-extras": "*"
+  }
+}

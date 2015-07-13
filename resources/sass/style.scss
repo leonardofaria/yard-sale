@@ -1,0 +1,184 @@
+@import 'base';
+
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+@import url(http://fonts.googleapis.com/css?family=Lora);
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+	background: #f6f6f6;
+	font-family: 'Lora', Arial;
+  position: absolute;
+  transition: all 0.5s ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background: #34383C;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  color: #8A949F;
+  text-shadow: #222 0px -1px 1px;
+  width: 100%;
+  left: 0;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+  h1 {
+  	margin: 0;
+  	padding: 0;
+  }
+  a {
+    float: left;
+    color: #f6f6f6;
+    margin-left: 20px;
+    margin-right: -10px;
+    font-size: 32px;
+  }
+}
+
+.ng-pageslide {
+  width: 200px;
+}
+
+.nav {
+	font-family: 'Nunito', sans-serif;
+  background: #69CBE2;
+  color: #69CBE2;
+  transition: width 0.3s ease;
+  ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  b {
+  	background: #1E2226;
+    border-bottom: 2px solid #1E2226;
+  	display: block;
+  	text-align: center;
+  	padding: 20px 10px;
+  }
+  a {
+    display: block;
+    border-bottom: 1px solid #006981;
+    color: #006981;
+    display: block;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+    &:hover, &:focus {
+      background: #F6F6F6;
+    }
+  }
+}
+
+#content {
+  padding: 0 20px 20px 20px;
+}
+
+.products {
+	background: #fff;
+	border: 1px solid #ccc;
+}
+
+.product {
+	color: #34383C;
+  text-align: center;
+	transition: all 0.3s ease;
+
+	p {
+		font-family: 'Lora';
+		font-size: 0.85em;
+		margin: 5px;
+	}
+
+	h2 {
+		font-family: 'Nunito', sans-serif;
+		font-weight: normal;
+		margin: 10px 5px 5px 5px;
+	}
+
+	&:hover {
+		background: #1E2226;
+		color: #69CBE2;
+	}
+
+	// http://jonathannicol.com/blog/2014/06/16/centre-crop-thumbnails-with-css/
+	.thumbnail {
+		margin: 10px auto 10px;
+	  position: relative;
+	  width: 140px;
+	  height: 140px;
+	  overflow: hidden;
+	}
+
+	.thumbnail img {
+	  position: absolute;
+	  left: 50%;
+	  top: 50%;
+	  height: 100%;
+	  width: auto;
+	  -webkit-transform: translate(-50%,-50%);
+	      -ms-transform: translate(-50%,-50%);
+	          transform: translate(-50%,-50%);
+	}
+
+	.thumbnail img.portrait {
+	  width: 100%;
+	  height: auto;
+	}
+
+	.price {
+		font-family: 'Lora';
+		margin: 0 auto 10px;
+		width: 80%;
+		display: table;
+    white-space: nowrap;
+    &:before, &:after {
+      border-top: 1px solid #666;
+      content: '';
+      display: table-cell;
+      position: relative;
+      top: 10px;
+      width: 45%;
+    }
+    &:before { right: 3%; }
+    &:after { left: 3%; }
+	}
+}
+
+#contact {
+  background: #1E2226;
+  color: #f6f6f6;
+  margin: 0 20px;
+  padding: 15px;
+
+  a {
+    color: #f6f6f6;
+    text-decoration: underline;
+  }
+
+  h2 {
+    color: #69CBE2;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    margin-top: 0;
+  }
+}
+
+footer {
+	font-size: 0.8em;
+	margin: 20px;
+	text-align: right;
+
+	a, a:visited {
+		color: #34383C;
+	}
+}

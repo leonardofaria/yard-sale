@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="yardSale" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:url" content="http://vendadegaragem.leonardofaria.net"/>
+    <meta property="og:title" content="Venda de Garagem"/>
+    <meta property="og:site_name" content="Venda de Garagem"/>
+    <meta property="og:description" content="Estou de mudança e tudo está a venda!"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale" content="pt_br"/>
+    <title>Venda de Garagem</title>
+    <link href="/yardsale.css" rel="stylesheet">
+    <script data-require="angular.js@*" data-semver="1.3.0-beta.5" src="https://code.angularjs.org/1.3.0-beta.5/angular.js"></script>
+    <script data-require="angular-route@*" data-semver="1.2.14" src="http://code.angularjs.org/1.2.14/angular-route.js"></script>
+    <script src="/yardsale.js"></script>
+    <!--
+    <script src="/js/app.js"></script>
+    <script src="/js/ProductsController.js"></script>
+    <script src="/js/angular-pageslide-directive.js"></script>
+    -->
+  </head>
+
+  <body>
+
+    <div ng-view></div>
+
+    <section id="contact">
+      <h2>Interessou em algo? Entre em contato</h2>
+
+      <p>E-mail para <a href="mailto: leonardofaria@gmail.com">leonardofaria@gmail.com</a> ou use o formulário de comentários abaixo:</p>
+
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_shortname = 'vendadegaragem';
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+    </section>
+
+    <footer>
+      <a href="https://github.com/leonardofaria/yard-sale">Código-fonte</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+<header>
+  <a ng-click="toggle()">☰</a>
+  <h1>Venda de Garagem</h1>
+</header>
+
+<section id="content">
+  <p>
+    Estou de mudança e por isso estou vendendo tudo. Os produtos são 110v e estão em Divinópolis/MG
+  </p>
+
+  <div pageslide ps-class="nav" ps-size="200px" ps-open="checked" ps-side="left" ps-push="true" ps-squeeze="true" ps-cloak="false">
+    <b>Categorias</b>
+
+    <ul>
+      <li ng-repeat="category in categories">
+        <a ng-click="filters.category = category.id; toggle()">{{ category.name }}</a>
+      </li>
+      <li>
+        <a ng-click="filters.category = ''; toggle()">Todos os produtos</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="pure-g products">
+    <div ng-repeat="product in products | filter:filters" class="product pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+      <h2>{{ product.name }} </h2>
+      <div class="thumbnail">
+        <img ng-src="/data/img/{{ product.image }}" />
+      </div>
+      <p>{{ product.description }}</p>
+      <div class="price">{{ product.price | currency: "R$ " }}</div>
+    </div>
+  </div>
+</section>
