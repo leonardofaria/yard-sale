@@ -7,7 +7,7 @@ A simple website deployed on [Heroku](http://heroku.com) to sell my stuff. It us
 1. Clone this repo.
 2. cd into the directory and run `npm install`
 3. Run `gulp` and it will pull in all dependencies and compile
-4. cd public && python -m SimpleHTTPServer to run a local version
+4. `cd public && python -m SimpleHTTPServer` to run a local version
 
 ## Deploy on Heroku
 
