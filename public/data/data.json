@@ -78,6 +78,51 @@
 			"image": "case.jpg",
 			"description": "Case para HD SATA 3,5\" (HD de Desktop)",
 			"price": 55
+		},
+
+		{
+			"id": 8,
+			"name": "Repetidor Wifi",
+			"category": 2,
+			"image": "repetidor.jpg",
+			"description": "Repetidor portátil, alcance de 150 metros, parece um carregador de iPhone",
+			"price": 50
+		},
+
+		{
+			"id": 9,
+			"name": "O Tênis no Brasil",
+			"category": 3,
+			"image": "tenis.jpg",
+			"description": "De Maria Esther Bueno a Gustavo Kuerten, história do esporte no Brasil",
+			"price": 10
+		},
+
+		{
+			"id": 10,
+			"name": "A Cabeça de Steve Jobs",
+			"category": 3,
+			"image": "stevejobs-cabeca.jpg",
+			"description": "As lições do líder da empresa mais revolucionária do mundo",
+			"price": 10
+		},
+
+		{
+			"id": 11,
+			"name": "MySQL - Guia do Programador",
+			"category": 3,
+			"image": "mysql.jpg",
+			"description": "Cobre as partes básicas e intermediárias do MySQL.",
+			"price": 40
+		},
+
+		{
+			"id": 12,
+			"name": "O Fascinante Império de Steve Jobs",
+			"category": 3,
+			"image": "stevejobs-fascinante.jpg",
+			"description": "Como um dos líderes mais criativos do mundo transformou um negócio de garagem em uma empresa que vale milhões",
+			"price": 20
 		}
 	]
 }
